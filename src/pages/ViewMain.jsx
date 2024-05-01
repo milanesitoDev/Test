@@ -15,7 +15,7 @@ const ViewMain = () => {
               {/* Renderiza los datos obtenidos del endpoint */}
               {loading && <p>Cargando...</p>}
               {!loading && data && (
-                <div className="column">
+                <div className="">
                   <h1 className="text-3xl font-bold sm:text-4xl">
                     Datos del endpoint:
                   </h1>
