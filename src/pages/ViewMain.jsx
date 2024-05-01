@@ -23,7 +23,7 @@ const ViewMain = () => {
                     {data.map((item) => (
                       <div
                         key={item.id}
-                        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-400/10 hover:shadow-pink-400/10"
                       >
                         <h2 className="mt-4 text-xl font-bold text-white">
                           Elemento {item.id}

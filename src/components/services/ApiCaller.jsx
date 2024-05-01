@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const ApiCaller = ({ setData, setLoading }) => {
   useEffect(() => {
@@ -8,7 +8,6 @@ const ApiCaller = ({ setData, setLoading }) => {
         const jsonData = await response.json();
         setData(jsonData);
         setLoading(false);
-        console.log(jsonData);
       } catch (error) {
         console.error(error);
         setLoading(false);
